@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCET | HACKATHON</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+</head>
+<body>
+    <div id="main">
+        <div class="loader">
+            <h2><span>VCET </span>
+              <span> | </span>
+              <span>HACKATHON</span>
+              <span>Code</span>
+              <span>For</span>
+              <span>Tomorrow</span>
+              <span></span>
+            </h2>
+          </div>
+          <div id="hero">
+            <div id="navbar">
+                <div id="left">
+                    <h3>VCET</h3>
+                </div>
+                <div id="right">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#problems">Problems</a>
+                </div>
+                
+              </div>
+              <div id="about">
+                <img src="./logo-bcea6d42.png" alt="">
+                <h2>about section</h2>
+
+              </div>
+
+              <div id="Problems">
+                <div id="problem1">
+                    <h2>problem1</h2>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium veritatis aliquam voluptatum qui tenetur. Nesciunt, mollitia consectetur repellat dolorem perspiciatis error provident! Eveniet, perferendis?</h2>
+                    
+                </div>
+                <div id="problem1">
+                    #problem2
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium veritatis aliquam voluptatum qui tenetur. Nesciunt, mollitia consectetur repellat dolorem perspiciatis error provident! Eveniet, perferendis?</h2>
+                    
+                </div>
+                <div id="problem1">
+                    <h3>Problem3</h3>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium veritatis aliquam voluptatum qui tenetur. Nesciunt, mollitia consectetur repellat dolorem perspiciatis error provident! Eveniet, perferendis?</h2>
+                    
+                </div>
+                <div id="problem1">
+                    <h3>Probelm4</h3>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium veritatis aliquam voluptatum qui tenetur. Nesciunt, mollitia consectetur repellat dolorem perspiciatis error provident! Eveniet, perferendis?</h2>
+                    
+                </div>
+              </div>
+              <div id="prizes">
+
+              </div>
+
+            
+          </div>
+          
+    </div>
+    <script>var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+          var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ 
+  <script src="script.js"></script></body>
+</html>
